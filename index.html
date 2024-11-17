@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-form</title>
+    <link rel="stylesheet" href="./css/css.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <h1>Contact Us</h1>
+      <form action="">
+        <div class="names">
+            <div class="flex-column">
+                <label for="">First Name <span>*</span></label>
+                <input type="text" />
+            </div>
+            <div class="flex-column">
+                <label for="">Last Name <span>*</span></label>
+                <input type="text" />
+            </div>
+        </div>
+        <div class="flex-column email">
+          <label for="">Email Address <span>*</span></label>
+          <input type="email" />
+        </div>
+        <div class="flex-column">
+            <label for="">Query Type <span>*</span></label>
+            <div class="flex-radio">
+              <div class="input-radio">
+                <input type="radio" name="Query-Type">
+                <span>General Enquiry</span>
+              </div>
+              <div class="input-radio">
+                <input type="radio" name="Query-Type">
+                <span>Support Request</span>
+              </div>
+            </div>
+        </div>
+
+        <div class="flex-column">
+            <label for="">Message <span>*</span></label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox">
+            <span>I consent to being contacted by the team <span>*</span></span>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
